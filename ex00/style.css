@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    color: white;
+    padding: 15px 25px;
+}
+
+.nav-container a {
+    color: white;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    width: 200px;
+    border: 2px solid navy;
+    border-radius: 10px;
+}
